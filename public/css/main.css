@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(49, 37, 54);
+}
+
+.white-font {
+    color: rgb(236, 235, 235);
+}
+
+.error-input-field {
+    border: 2px solid red;
+}
+
+.error-input-field::before {
+    content: "*";
+    color: red;
+    margin-left: 5px;
+}
